@@ -3,7 +3,7 @@ import mysql.connector as sql
 # Connect to MySQL
 conn = sql.connect(host='localhost', user='root', passwd='', database='project')
 if conn.is_connected():
-    print('Successfully connected to database')
+    print('Successfully connected to database!')
 
 c1 = conn.cursor()
 
