@@ -26,3 +26,4 @@ else:
     imaginary_part = math.sqrt(abs(discriminant)) / (2*a)
     print(f"Root 1: {real_part} + {imaginary_part}j")
     print(f"Root 2: {real_part} - {imaginary_part}j")
+print("Program By Aryan Parikh")
